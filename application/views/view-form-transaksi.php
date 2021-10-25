@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>Tugas WebProgramming II_Triyanto Kurniawan_12200015</title>
+    <title>Tugas WebProgramming II_Euis Syafarani Suntit_12201276</title>
     <link href="<?php echo base_url() ?>assets/css/form.css" rel="stylesheet">
 
 </head>
@@ -20,9 +20,9 @@
 			<div class="input-group input-group-icon">
 			<select name="merek" id="Sepatu" class="form-select-	">
 				<option selected value="" >Pilih Sepatu</option>
-				<option value="Nike">Nike</option>
+				<option value="Ventela">Ventela</option>
 				<option value="Adidas">Adidas</option>
-				<option value="Kickers">Kickers</option>
+				<option value="Brodo">Brodo</option>
 				<option value="Eiger">Eiger</option>
 			</select>
 			<?= form_error('merek','<small class="text-danger pl-3">','</small> '); ?>

@@ -40,13 +40,13 @@ class Transaksi extends CI_Controller
         $merek = $this->input->post('merek');
         $no_hp = $this->input->post('no_hp');
         $ukuran = $this->input->post('ukuran');
-        if ($merek == "Nike") {
+        if ($merek == "Ventela") {
             $harga = 375000;
         }
         else if ($merek == "Adidas") {
             $harga = 300000;
         }
-        else if ($merek == "Kickers") {
+        else if ($merek == "Brodo") {
             $harga = 250000;
         }
         else if ($merek == "Eiger") {
